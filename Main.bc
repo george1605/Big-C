@@ -1,0 +1,5 @@
+include Console
+
+void main(string args[]){
+ Print("Hello World");
+}
