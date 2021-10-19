@@ -1,4 +1,7 @@
 library KOS.BigC
+define func (void)(string args[]);
 
-void ProcStart();
-void ProcEnd();
+int ProcStart();
+void ProcEnd(int procno);
+void ProcExec(func x);
+
