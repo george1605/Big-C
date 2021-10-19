@@ -1,0 +1,4 @@
+library KOS.BigC
+
+void ProcStart();
+void ProcEnd();
