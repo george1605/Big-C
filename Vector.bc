@@ -1,0 +1,16 @@
+define des(a) ~type(a)(){ } //like in C++
+define rdonly const
+
+class Vector<TYPE> {
+ priv TYPE vec[];
+ priv size;
+ priv cap;
+ pub Vector(){
+  vec = VecAlloc(10);
+  cap = 10;
+ }
+ pub Push(){
+ 
+ }
+ pub des(this);
+}
